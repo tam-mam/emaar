@@ -47,7 +47,6 @@ header .desktop-nav {
 header .desktop-nav .logo {
   background: #fdfdfd;
   display: flex;
-  justify-content: space-between;
   z-index: 200;
 }
 
@@ -271,7 +270,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .wrapper {
     width: auto;
   }
@@ -293,7 +292,6 @@ footer {
   header .mobile-nav .logo {
     display: flex;
     background: #fdfdfd;
-
     z-index: 400;
   }
   header .mobile-nav .Emaar h1 {
